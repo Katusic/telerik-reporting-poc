@@ -1,0 +1,12 @@
+<tr-viewer
+    [containerStyle]="viewerContainerStyle"
+    [serviceUrl]="'http://localhost:51936/api/reports'"
+    [templateUrl]="'..\\assets\\telerikReportViewerTemplate.html'"
+    [reportSource]="{
+        report: 'Barcodes Report.trdp',
+        parameters: {}
+    }"
+    [viewMode]="'INTERACTIVE'"
+    [scaleMode]="'SPECIFIC'"
+    [scale]="1.0">
+</tr-viewer>
